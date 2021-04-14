@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const pkg = require(path.join(process.cwd(), 'package.json'));
+const pkg = require(path.join(__dirname,'config.json'));
 
 const commitRegExp = new RegExp(pkg.config.commitMessageRegex);
 
