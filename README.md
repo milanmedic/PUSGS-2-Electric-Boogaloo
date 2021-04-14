@@ -20,3 +20,4 @@ $ git branch <branch-name> // branch has to named with the same convention as me
 If the corresponding ticket needs a subticket, when creating a branch, derive the branch from the parent branch, the same as you would for a ticket.
 
 Made by Marko
+Hooks hooks hooks
